@@ -21,7 +21,7 @@ const App = () => {
       body: JSON.stringify({
         model: "text-davinci-003",
         prompt:
-          "Extract keywords from this text. Make the first letter of each word uppercase and seperate each word by 1 comma. Dont duplicate words, or duplicate commas\n\n" +
+          "Extract keywords from this text. Make the first letter of each word uppercase and seperate each word by 1 comma. Dont duplicate words, or duplicate commas. Format your return like this 'word, word, word, word'\n\n" +
           text +
           "",
         temperature: 0.5,

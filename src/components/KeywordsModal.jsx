@@ -26,9 +26,7 @@ const KeywordsModal = ({ keywords, loading, isOpen, closeModal }) => {
               <Text>{keywords}</Text>
             )}
           </ModalBody>
-          <ModalFooter>
-            <Button colorScheme="blue" mr={3} onClick={closeModal}></Button>
-          </ModalFooter>
+          <ModalFooter></ModalFooter>
         </ModalContent>
       </Modal>
     </>
